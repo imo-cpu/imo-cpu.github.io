@@ -5,43 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      background-image: url('img/yumekawab02_.jpg'); /* 画像パス */
-      background-size: cover;   /* 画面全体に拡大 */
-      background-repeat: no-repeat; /* 繰り返さない */
-      background-position: center;  /* 中央に配置 */
-    }
+ <style>
+  body {
+    background-image: url('img/yumekawab02_.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;          /* 余白をリセット */
+    padding: 0 20px;    /* 横に少し余白だけ */
+  }
 
-    body {
-      font-family: 'Noto Sans JP', sans-serif;
-      margin: 40px;
-      max-width: 800px;
-    }
-    header {
-      width: 100%;  /* 親要素を画面幅いっぱいに */
-      margin-bottom: 40px;
-    }
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 0;
-      text-align: center;
-    }
-    nav a {
-      margin-right: 15px;
-      text-decoration: none;
-      color: #0078ff;
-    }
-    section {
-      margin-bottom: 40px;
-    }
-    .work-card {
-      border: 1px solid #ddd;
-      padding: 15px;
-      border-radius: 8px;
-      margin-bottom: 15px;
-    }
-  </style>
+  header {
+    width: 100%;       /* 幅いっぱいに */
+    margin-bottom: 40px;
+    text-align: center; /* 子要素を中央に揃える */
+  }
+
+  h1 {
+    font-size: 2.5em;
+    margin: 0;          /* 上下余白をリセット */
+    display: inline-block; /* ブロック幅を文字幅に合わせる */
+  }
+
+  p {
+    text-align: center; /* サブタイトルも中央に */
+  }
+
+  nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0078ff;
+  }
+
+  section {
+    margin-bottom: 40px;
+    max-width: 800px;  /* セクションは幅制限 */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .work-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+</style>
+
 </head>
 <body>
   <header>
