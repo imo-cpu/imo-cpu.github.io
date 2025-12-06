@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 40px;
+      max-width: 800px;
+    }
+    header {
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #0078ff;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .work-card {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+  </style>
 </head>
 <body>
-  <h1>My Portfolio</h1>
-  <p>Welcome to my portfolio site!</p>
+  <header>
+    <h1>あなたの名前</h1>
+    <p>Webエンジニアを目指して勉強中です。</p>
+  </header>
+
+  <section>
+    <h2>スキル</h2>
+    <ul>
+      <li>HTML / CSS</li>
+      <li>JavaScript</li>
+      <li>Git / GitHub</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>作品</h2>
+    <div class="work-card">
+      <h3>作品タイトル</h3>
+      <p>作品の説明をここに書きます。</p>
+      <a href="#">作品を見る</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>リンク</h2>
+    <p><a href="https://github.com/あなたのユーザー名">GitHub</a></p>
+  </section>
 </body>
 </html>
