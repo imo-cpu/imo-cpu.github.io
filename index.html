@@ -58,14 +58,10 @@
 </head>
 <body>
   <script>
-  const password = "いも、愛してるぞ。"; // ←好きなパスワードに変えてOK
-  const input = prompt("合言葉をどうぞ：");
-
-  if (input !== password) {
-    document.body.innerHTML = "<h2 style='text-align:center; margin-top:40px;'>それじゃだめ。</h2>";
-  }
-</script>
-
+    if (window.location.pathname === "/" || window.location.pathname.endsWith("index.html")) {
+      window.location.href = "password.html";
+    }
+  </script>
   <header>
     <h1>いも()</h1>
     <p>いもの全部がここに。一見さんお断り。</p>
