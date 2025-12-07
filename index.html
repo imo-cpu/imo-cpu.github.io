@@ -57,9 +57,18 @@
 
 </head>
 <body>
+  <script>
+  const password = "いも、愛してるぞ。"; // ←好きなパスワードに変えてOK
+  const input = prompt("合言葉をどうぞ：");
+
+  if (input !== password) {
+    document.body.innerHTML = "<h2 style='text-align:center; margin-top:40px;'>それじゃだめ。</h2>";
+  }
+</script>
+
   <header>
     <h1>いも()</h1>
-    <p>初めまして始めました。</p>
+    <p>いもの全部がここに。一見さんお断り。</p>
   </header>
 
   <section>
