@@ -58,10 +58,15 @@
 </head>
 <body>
   <script>
-    if (window.location.pathname === "/" || window.location.pathname.endsWith("index.html")) {
-      window.location.href = "password.html";
-    }
-  </script>
+  // password.html から来た場合だけ index.html を表示
+  const ref = document.referrer;
+
+  // もし直アクセスなら password.html に戻す
+  if (!ref.includes("password.html")) {
+    window.location.href = "password.html";
+  }
+</script>
+
   <header>
     <h1>いも()</h1>
     <p>いもの全部がここに。一見さんお断り。</p>
