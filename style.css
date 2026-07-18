@@ -58,11 +58,11 @@ body {
   }
 
 .decoration {
-    position: relative;
+    /* position: relative; */
     width: 200px;
     height: auto;
+    display: block;
+    margin: 0 auto;
     /* top: 300px;   /* 下へ20px */ */
     /* left: 1000px;  /* 右へ50px */ */
-　　 display: block;
-    margin: 0 auto;
 }
