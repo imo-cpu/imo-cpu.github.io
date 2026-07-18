@@ -58,7 +58,9 @@ body {
   }
 
 .decoration {
-  position: relative;
-  top: 20px;   /* 下へ20px */
-  left: 50px;  /* 右へ50px */
+    position: relative;
+    width: 150px;
+    height: auto;
+    top: 20px;   /* 下へ20px */
+    left: 50px;  /* 右へ50px */
 }
