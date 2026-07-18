@@ -61,6 +61,8 @@ body {
     position: relative;
     width: 200px;
     height: auto;
-    top: 300px;   /* 下へ20px */
-    left: 1000px;  /* 右へ50px */
+    /* top: 300px;   /* 下へ20px */ */
+    /* left: 1000px;  /* 右へ50px */ */
+　　 display: block;
+    margin: 0 auto;
 }
