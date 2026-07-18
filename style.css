@@ -56,3 +56,9 @@ body {
     border-radius: 8px;
     margin-bottom: 15px;
   }
+
+.decoration {
+  position: relative;
+  top: 20px;   /* 下へ20px */
+  left: 50px;  /* 右へ50px */
+}
