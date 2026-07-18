@@ -1,1 +1,56 @@
+body {
+    background-image: url('img/yumekawab02_.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+/*  font-family: YuGothic,'Yu Gothic',sans-serif; */
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    margin: 0;          /* 余白をリセット */
+    padding: 0 20px;    /* 横に少し余白だけ */
+    color: #fff;
+    text-shadow: 2px 2px 8px #ff69b4;
+  }
 
+  header {
+    width: 100%;       /* 幅いっぱいに */
+    margin-bottom: 40px;
+    text-align: center; /* 子要素を中央に揃える */
+  }
+
+  h1 {
+    font-size: 2.5em;
+    margin: 0;          /* 上下余白をリセット */
+    display: inline-block; /* ブロック幅を文字幅に合わせる */
+    margin-top: 20px; /* 上に20pxの余白 */
+    margin-bottom: 0; /* 下は0 */
+  }
+  h3 .subtext { /* h3と同じ行の説明書き */
+  font-size: 0.8em;   /* h3より小さく */
+  font-weight: normal; /* 太字を解除 */
+  color: #666;         /* 少し薄い色 */
+  margin-left: 10px;   /* 見出しとの間隔 */
+}
+
+  p {
+    text-align: center; /* サブタイトルも中央に */
+  }
+
+  nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0078ff;
+  }
+
+  section {
+    margin-bottom: 40px;
+    max-width: 1000px;  /* セクションは幅制限 */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .work-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
