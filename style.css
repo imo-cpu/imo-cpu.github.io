@@ -8,7 +8,7 @@ body {
     margin: 0;          /* 余白をリセット */
     padding: 0 20px;    /* 横に少し余白だけ */
     color: #ff69b4;
-    /* text-shadow: 2px 2px 8px #ff69b4; */
+    text-shadow: 2px 2px 8px #f0f8ff;
   }
 
   header {
@@ -19,6 +19,8 @@ body {
 
   h1 {
     font-size: 2.5em;
+    color: #f0f8ff;
+    text-shadow: 2px 2px 8px #ff69b4;
     margin: 0;          /* 上下余白をリセット */
     display: inline-block; /* ブロック幅を文字幅に合わせる */
     margin-top: 20px; /* 上に20pxの余白 */
@@ -27,7 +29,7 @@ body {
   h3 .subtext { /* h3と同じ行の説明書き */
   font-size: 0.8em;   /* h3より小さく */
   font-weight: normal; /* 太字を解除 */
-  color: #666;         /* 少し薄い色 */
+  color: #ff69b4;         /* 少し薄い色 */
   margin-left: 10px;   /* 見出しとの間隔 */
 }
 
